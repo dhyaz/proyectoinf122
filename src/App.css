@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 0.7em;
+  color: #ddd;
+}
+
+nav {
+  background-color: #ddd;
+  padding: 10px 0;
+  margin-bottom: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: block;
+  transition: background-color 1s ease, transform 1s ease;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: #f4f4f4;
+  animation: despliegue 1s forwards;
+}
+
+@keyframes despliegue {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.1); }
+}
+
+nav ul li:active {
+  animation: contraccion 1s forwards;
+}
+
+@keyframes contraccion {
+  0% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #090f16;
+  font-size: 0.9em;
+}
+
+Routes {
+  cursor: default;
+}
+
+a[href="/home"],
+a[href="/morenada"],
+a[href="/caporales"],
+a[href="/diablada"],
+a[href="/macheteros"],
+a[href="/moperas"],
+a[href="/danzadelsolylaluna"],
+a[href="/chovena"],
+a[href="/pujllay"],
+a[href="/cuecachuquisaqueña"],
+a[href="/bailecito"],
+a[href="/creditos"] {
+  color: #090f16;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #282c34;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
