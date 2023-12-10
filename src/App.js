@@ -42,6 +42,7 @@ const App = () => {
               <FontAwesomeIcon icon={faBars} /> MENU DESPLEGABLE
             </li>
             <li>
+              <h1>Hola Mundo</h1>
               <h1>DANZAS DE BOLIVIA</h1>
             </li>
             <li>
