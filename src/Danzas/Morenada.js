@@ -5,7 +5,7 @@ const Morenada = () => {
     return (
         <div>
             <h1>Morenada</h1>
-            <p></p>
+            <p>Este es el contenido de la Morenada.</p>
         </div>
     );
 };
