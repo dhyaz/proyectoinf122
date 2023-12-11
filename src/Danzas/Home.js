@@ -1,4 +1,4 @@
-// Chovena.js
+// Home.js
 import React from 'react';
 
 const Home = () => {
